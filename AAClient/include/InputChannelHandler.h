@@ -3,6 +3,7 @@
 #pragma once
 
 #include "ChannelHandler.h"
+#include <set>
 
 class InputChannelHandler : public ChannelHandler {
   void sendChannelOpenResponse();
